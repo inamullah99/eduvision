@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+:root {
+    --main: #ff6700;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+i {
+    color: var(--main);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+h1 {font-size: 4.5rem;}
+h2 {font-size: 3.5rem; color: #333;}
+h3 {font-size: 2.5rem;}
+h4 {font-size: 2.2rem;}
+p {
+    margin: 1rem 0rem;
+    line-height: 1.2;
+    font-size: 1.8rem;
+}
+
+.free  {
+    color: #18ff65;
+}
+
+.premium {
+    color: rgb(250, 111, 31);
+}
+
+a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0rem auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my5 {
+    margin: 3rem 0rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background-color: var(--main);
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    padding: 1.3rem 2rem;
+    font-weight: bold;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ee5f00;
+}
+
+
+form {
+    background-color: white;
+    opacity: 0.8;
+    color: #000;
+    padding: 2rem;
+    width: 80%;
+    margin: 0rem auto;
+    border-radius: 2rem;
+}
+
+#email, #password, #name, #msg {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem 0rem;
+    border: 0.5px solid black;
+    border-radius: 0.5rem;
+}
+
+
+
+.cards h3 {
+    color: var(--bgcolor);
+}
+
+
+
+.cards {
+    margin: 4rem 0rem;
+}
+
+.card-content {
+    padding: 0rem 1rem;
+}
